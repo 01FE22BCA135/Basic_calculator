@@ -20,6 +20,11 @@ class calculator{
      return(a/b);
     }
 
+    float power(float a)
+    {
+        return(a*a);
+    }
+
 public static void main(String[] args) {
     
     calculator c = new calculator();
@@ -33,6 +38,8 @@ public static void main(String[] args) {
     System.out.println("Multiplication of two numbers:"+ c.multi(a,b));
 
     System.out.println("Division of two numbers:"+ c.div(a,b));
+
+    System.out.println("Power of two numbers:"+ c.power(a));
     
 }
 
